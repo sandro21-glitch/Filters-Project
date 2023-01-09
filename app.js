@@ -18,7 +18,7 @@ function displayProducts() {
             <img src="${item.image}" alt="" class="product-img img">
                 <footer>
                 <h5 class="product-name">${item.title}</h5>
-                <span class="product-price">${item.price}</span>
+                <span class="product-price">$${item.price}</span>
                 </footer>
         </article>
         `
